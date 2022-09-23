@@ -23,39 +23,38 @@ print(type(x))
 print()
 # Setting the Data Type
     # In Python, the data type is set when you assign a value to a variable.
-x = "Hello World"
-x = 20
-x = 20.5
-x = 1j
-x = ["apple", "banana", "cherry"]
-x = ("apple", "banana", "cherry")
-x = range(6)
-x = {"name" : "John", "age" : 36}
-x = {"apple", "banana", "cherry"}
-x = frozenset({"apple", "banana", "cherry"})
-x = True
-x = b"Hello"
-x = bytearray(5)
-x = memoryview(bytes(5))
-x = None
+x = "Hello World"                               # str
+x = 20                                          # int
+x = 20.5                                        # float
+x = 1j                                          # complex
+x = ["apple", "banana", "cherry"]               # list
+x = ("apple", "banana", "cherry")               # tuple
+x = range(6)                                    # range
+x = {"name" : "John", "age" : 36}               # dict
+x = {"apple", "banana", "cherry"}               # set
+x = frozenset({"apple", "banana", "cherry"})    # frozenset
+x = True                                        # bool
+x = b"Hello"                                    # bytes
+x = bytearray(5)                                # bytearray
+x = memoryview(bytes(5))                        # memoryview
+x = None                                        # Nonetype
 print(x)
 
 print()
 # Setting the Specific Data Type
     # If you want to specify the data type, you can use the following constructor functions.
-
-x = str("Hello World")
-x = int(20)
-x = float(20.5)
-x = complex(1j)
-x = list(("apple", "banana", "cherry"))
-x = tuple(("apple", "banana", "cherry"))
-x = range(6)
-x = dict(name = "John", age = 36)
-x = set(("apple", "banana", "cherry"))
-x = frozenset(("apple", "banana", "cherry"))
-x = bool(5)
-x = bytes(5)
-x = bytearray(5)
-x = memoryview(bytes(5))
+x = str("Hello World")                          # str
+x = int(20)                                     # int
+x = float(20.5)                                 # float
+x = complex(1j)                                 # complex
+x = list(("apple", "banana", "cherry"))         # list
+x = tuple(("apple", "banana", "cherry"))        # tuple
+x = range(6)                                    # range
+x = dict(name = "John", age = 36)               # dict
+x = set(("apple", "banana", "cherry"))          # set
+x = frozenset(("apple", "banana", "cherry"))    # frozenset
+x = bool(5)                                     # bool
+x = bytes(5)                                    # byte
+x = bytearray(5)                                # bytearray
+x = memoryview(bytes(5))                        # memoryview
 print(x)
