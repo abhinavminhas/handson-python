@@ -14,6 +14,7 @@
 - [Python Numbers](/1_python_basics/6_numbers/)
     - [Numbers](/1_python_basics/6_numbers/1_numbers.py)
     - [Random Numbers](/1_python_basics//6_numbers/2_random_number.py)
+- [Python Casting](/1_python_basics/7_casting.py)
 
 ## Python File Handling
 - [Python File Handling](/2_python_file_handling/)
