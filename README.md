@@ -10,6 +10,7 @@
     - [Assign Multiple Values](/1_python_basics/4_variables/3_assign_multiple_values.py)
     - [Output Variables](/1_python_basics/4_variables/4_output_variables.py)
     - [Global Variables](/1_python_basics/4_variables/5_global_variables.py)
+- [Python data Types](/1_python_basics/5_data_types.py)
 
 ## Python File Handling
 - [Python File Handling](/2_python_file_handling)
