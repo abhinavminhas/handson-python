@@ -28,6 +28,7 @@
 - [Python If ... Else](/1_python_basics/15_if_else.py)
 - [Python While Loops](/1_python_basics/16_while_loops.py)
 - [Python For Loops](/1_python_basics/17_for_loops.py)
+- [Python Functions](/1_python_basics/18_functions.py)
 
 ## Python File Handling
 - [Python File Handling](/2_python_file_handling/)
