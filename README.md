@@ -24,6 +24,7 @@
     - [Escape Characters](/1_python_basics/8_strings/6_escape_characters.py)
     - [String Methods](/1_python_basics/8_strings/7_string_methods.py)
 - [Python Booleans](/1_python_basics/9_booleans.py)
+- [Python Operators](/1_python_basics/10_operators.py)
 
 ## Python File Handling
 - [Python File Handling](/2_python_file_handling/)
