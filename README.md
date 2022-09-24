@@ -29,6 +29,8 @@
 - [Python While Loops](/1_python_basics/16_while_loops.py)
 - [Python For Loops](/1_python_basics/17_for_loops.py)
 - [Python Functions](/1_python_basics/18_functions.py)
+- [Python Lambda](/1_python_basics/19_lambda.py)
+- [Python Arrays](/1_python_basics/20_arrays.py)
 
 ## Python File Handling
 - [Python File Handling](/2_python_file_handling/)
