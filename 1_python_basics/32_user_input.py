@@ -1,3 +1,5 @@
+# Python User Input
+
 # User Input
 '''
     Python allows for user input.
@@ -6,16 +8,15 @@
     Python 3.6 uses the input() method.
     Python 2.7 uses the raw_input() method.
 '''
-#  The following example asks for the username, and when you entered the username, it gets printed on the screen.
+    #  The following example asks for the username, and when you entered the username, it gets printed on the screen.
 
-# Python 3.6
+    # Python 3.6
 username = input("Enter username: ")
 print("Username is: " + username)
 
-# Python 2.7
+    # Python 2.7
 '''
-username = raw_input("Enter username: ")
-print("Username is: " + username)
+    username = raw_input("Enter username: ")
+    print("Username is: " + username)
 '''
-
-# To make sure a string will display as expected, we can format the result with the format() method.
+    # To make sure a string will display as expected, we can format the result with the format() method.

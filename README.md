@@ -42,6 +42,9 @@
 - [Python Math](/1_python_basics/27_math.py)
 - [Python JSON](/1_python_basics/28_json.py)
 - [Python PIP](/1_python_basics/30_pip.py)
+- [Python Try Except](/1_python_basics/31_try_except.py)
+- [Python User Input](/1_python_basics/32_user_input.py)
+- [Python String Formatting](/1_python_basics/33_string_formatting.py)
 
 ## Python File Handling
 - [Python File Handling](/2_python_file_handling/)
