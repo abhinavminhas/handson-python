@@ -35,6 +35,10 @@
 - [Python Inheritence](/1_python_basics/22_inheritence.py)
 - [Python Iterators](/1_python_basics/23_iterators.py)
 - [Python Scope](/1_python_basics/24_scope.py)
+- [Python Modules](/1_python_basics/25_modules/)
+    - [Modules - Part 1](/1_python_basics/25_modules/mymodule.py)
+    - [Modules - Part 2](/1_python_basics/25_modules/run_module.py)
+- [Python Dates](/1_python_basics/26_dates.py)
 
 ## Python File Handling
 - [Python File Handling](/2_python_file_handling/)
