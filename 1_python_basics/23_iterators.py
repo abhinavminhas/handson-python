@@ -7,12 +7,8 @@
 # Iterator vs Iterable
 '''
     Lists, tuples, dictionaries, and sets are all iterable objects. They are iterable containers which you can get an iterator from.
-
     All these objects have a iter() method which is used to get an iterator.
 '''
-from re import A
-
-
 mytuple = ("apple", "banana", "cherry")
 myit = iter(mytuple)
 
@@ -21,7 +17,7 @@ print(next(myit))
 print(next(myit))
 
 print()
-# Strings are also iterable objects, containing a sequence of characters.
+    # Strings are also iterable objects, containing a sequence of characters.
 mystr = "banana"
 myit = iter(mystr)
 
@@ -34,17 +30,17 @@ print(next(myit))
 
 print()
 # Looping Through an Iterator
-# We can also use a for loop to iterate through an iterable object.
+    # We can also use a for loop to iterate through an iterable object.
 mytuple = ("apple", "banana", "cherry")
 for x in mytuple:
     print(x)
 
 print()
-# Iterate the characters of a string.
+    # Iterate the characters of a string.
 mystr = "banana"
 for x in mystr:
     print(x)
-# Note - The for loop actually creates an iterator object and executes the next() method for each loop.
+    # Note - The for loop actually creates an iterator object and executes the next() method for each loop.
 
 print()
 # Create an Iterator
@@ -54,7 +50,7 @@ print()
     The __iter__() method acts similar, you can do operations (initializing etc.), but must always return the iterator object itself.
     The __next__() method also allows you to do operations, and must return the next item in the sequence.
 '''
-# Example - Create an iterator that returns numbers, starting with 1, and each sequence will increase by one (returning 1,2,3,4,5 etc.).
+# Create an iterator that returns numbers, starting with 1, and each sequence will increase by one (returning 1,2,3,4,5 etc.).
 class MyNumbers:
     def __iter__(self):
         self.a = 1

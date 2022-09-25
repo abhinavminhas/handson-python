@@ -1,18 +1,24 @@
 # Python JSON
-# JSON is a syntax for storing and exchanging data.
-# JSON is text, written with JavaScript object notation.
+'''
+  JSON is a syntax for storing and exchanging data.
+  JSON is text, written with JavaScript object notation.
+'''
 
-# Python has a built-in package called json, which can be used to work with JSON data.
+#JSON in Python
+  # Python has a built-in package called json, which can be used to work with JSON data.
 import json
 
-# If you have a JSON string, you can parse it by using the json.loads() method.
+# Parse JSON - Convert from JSON to Python
+  # If you have a JSON string, you can parse it by using the json.loads() method.
+  # The result will be a Python dictionary.
 x =  '{ "name":"John", "age":30, "city":"New York"}'
 y = json.loads(x)
 print(y)
 print(y['age'])
 
 print()
-# If you have a Python object, you can convert it into a JSON string by using the json.dumps() method.
+# Convert from Python to JSON
+  # If you have a Python object, you can convert it into a JSON string by using the json.dumps() method.
 x = {
   "name": "John",
   "age": 30,
@@ -21,20 +27,21 @@ x = {
 y = json.dumps(x)
 print(y)
 
-# You can convert Python objects of the following types, into JSON strings:
+  # You can convert Python objects of the following types, into JSON strings:
 '''
-dict
-list
-tuple
-string
-int
-float
-True
-False
-None
+  Python    JSON
+  dict      Object
+  list      Array
+  tuple     Array
+  str       String
+  int       Number
+  float     Number
+  True      true
+  False     false
+  None      null
 '''
 
-# Convert a Python object containing all the legal data types.
+  # Convert a Python object containing all the legal data types.
 x = {
   "name": "John",
   "age": 30,
@@ -64,23 +71,20 @@ print(json.dumps(None))
 
 print()
 # Format the Result
-# The example above prints a JSON string, but it is not very easy to read, with no indentations and line breaks.
-# The json.dumps() method has parameters to make it easier to read the result.
+  # The example above prints a JSON string, but it is not very easy to read, with no indentations and line breaks.
+  # The json.dumps() method has parameters to make it easier to read the result.
 y = json.dumps(x, indent=4)
 print(y)
 
 print()
-# You can also define the separators, default value is (", ", ": "), which means using a comma and a space to separate each object, and a colon and a space to separate keys from values.
-# Use the separators parameter to change the default separator.
+  # You can also define the separators, default value is (", ", ": "), which means using a comma and a space to separate each object, and a colon and a space to separate keys from values.
+  # Use the separators parameter to change the default separator.
 y = json.dumps(x, indent=4, separators=(". ", " = "))
 print(y)
 
-# Order the Result
-# The json.dumps() method has parameters to order the keys in the result.
-y = json.dumps(x, indent=4, sort_keys=True)
-print(y)
-
 print()
-# Use the sort_keys parameter to specify if the result should be sorted or not.
+# Order the Result
+  # The json.dumps() method has parameters to order the keys in the result.
+  # Use the sort_keys parameter to specify if the result should be sorted or not.
 y = json.dumps(x, indent=4, sort_keys=True)
 print(y)
