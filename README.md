@@ -31,6 +31,10 @@
 - [Python Functions](/1_python_basics/18_functions.py)
 - [Python Lambda](/1_python_basics/19_lambda.py)
 - [Python Arrays](/1_python_basics/20_arrays.py)
+- [Python Classes/Objects](/1_python_basics/21_classes_objects.py)
+- [Python Inheritence](/1_python_basics/22_inheritence.py)
+- [Python Iterators](/1_python_basics/23_iterators.py)
+- [Python Scope](/1_python_basics/24_scope.py)
 
 ## Python File Handling
 - [Python File Handling](/2_python_file_handling/)
