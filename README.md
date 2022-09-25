@@ -39,6 +39,9 @@
     - [Modules - Part 1](/1_python_basics/25_modules/mymodule.py)
     - [Modules - Part 2](/1_python_basics/25_modules/run_module.py)
 - [Python Dates](/1_python_basics/26_dates.py)
+- [Python Math](/1_python_basics/27_math.py)
+- [Python JSON](/1_python_basics/28_json.py)
+- [Python PIP](/1_python_basics/30_pip.py)
 
 ## Python File Handling
 - [Python File Handling](/2_python_file_handling/)
