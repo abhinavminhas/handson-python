@@ -1,5 +1,8 @@
-# There are several methods to remove items from a dictionary.
-# The pop() method removes the item with the specified key name.
+# Python - Remove Dictionary Items
+
+# Removing Items
+  # There are several methods to remove items from a dictionary.
+  # The pop() method removes the item with the specified key name.
 thisdict = {
   "brand": "Ford",
   "model": "Mustang",
@@ -9,7 +12,7 @@ thisdict.pop("model")
 print(thisdict)
 
 print()
-# The popitem() method removes the last inserted item.
+  # The popitem() method removes the last inserted item.
 thisdict = {
   "brand": "Ford",
   "model": "Mustang",
@@ -19,7 +22,7 @@ thisdict.popitem()
 print(thisdict)
 
 print()
-# The del keyword removes the item with the specified key name.
+  # The del keyword removes the item with the specified key name.
 thisdict = {
   "brand": "Ford",
   "model": "Mustang",
@@ -28,7 +31,7 @@ thisdict = {
 del thisdict["model"]
 print(thisdict)
 
-# The del keyword can also delete the dictionary completely.
+  # The del keyword can also delete the dictionary completely.
 thisdict = {
   "brand": "Ford",
   "model": "Mustang",
@@ -37,8 +40,7 @@ thisdict = {
 del thisdict
 
 print()
-
-# The clear() method empties the dictionary.
+  # The clear() method empties the dictionary.
 thisdict = {
   "brand": "Ford",
   "model": "Mustang",
