@@ -7,9 +7,9 @@ This repo is a handbook of [Python](https://www.python.org/) practice notes with
 ### Acquired Certifications
 - [PCEP-30-02](https://verify.openedg.org/?id=A8CF.PQ94.SWF6)
 
-### Additional Training Notes 
-- IDE used for training [Visual Studio Code](https://code.visualstudio.com/download)  
-- Python version used for training [Python3 (3.9.6)](https://www.python.org/downloads/release/python-396/)
+### Additional Training Notes
+- Code editor used for training - [Visual Studio Code](https://code.visualstudio.com/download)  
+- Python version used for training - [Python3 (3.9.6)](https://www.python.org/downloads/release/python-396/)
 
 ## Python Basics
 - [Python Intro](/1_python_basics/1_intro.py)
