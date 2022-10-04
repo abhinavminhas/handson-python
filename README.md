@@ -1,5 +1,5 @@
 # Python Handbook
-This repo is a handbook of Python practice notes with code snippets and information around learning and obtaining industry recognized certifications in Python programming.
+This repo is a handbook of [Python](https://www.python.org/) practice notes with code snippets and information around learning and obtaining industry recognized certifications in Python programming.
 
 - Online Training - [Python Essentials 1](https://pythoninstitute.org/python-essentials-1)
     - Associated Certification - [PCEP-30-0x](https://pythoninstitute.org/pcep)
