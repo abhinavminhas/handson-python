@@ -1,4 +1,15 @@
 # Python Handbook
+This repo is a handbook of Python practice notes with code snippets and information around learning and obtaining industry recognized certifications in Python programming.
+
+- Online Training - [Python Essentials 1](https://pythoninstitute.org/python-essentials-1)
+    - Associated Certification - [PCEP-30-0x](https://pythoninstitute.org/pcep)
+
+### Acquired Certifications
+- [PCEP-30-02](https://verify.openedg.org/?id=A8CF.PQ94.SWF6)
+
+### Additional Training Notes 
+- IDE used for training [Visual Studio Code](https://code.visualstudio.com/download)  
+- Python version used for training [Python3 (3.9.6)](https://www.python.org/downloads/release/python-396/)
 
 ## Python Basics
 - [Python Intro](/1_python_basics/1_intro.py)
@@ -91,3 +102,8 @@
     - [Read File](/2_python_file_handling/2_read_file.py)
     - [Write File](/2_python_file_handling//3_write_file.py)
     - [Delete File](/2_python_file_handling/4_delete_file.py)
+
+## References
+- [Python Institute Certification Roadmap](https://pythoninstitute.org/certification-tracks)
+- [Python Standard Library](https://docs.python.org/3/library/functions.html)
+- [W3Schools](https://www.w3schools.com/python/)
