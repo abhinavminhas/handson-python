@@ -4,6 +4,9 @@ This repo is a handbook of [Python](https://www.python.org/) practice notes with
 - Online Training - [Python Essentials 1](https://pythoninstitute.org/python-essentials-1)
     - Associated Certification - [PCEP-30-0x](https://pythoninstitute.org/pcep)
 
+- Online Training - [Python Essentials 2](https://pythoninstitute.org/python-essentials-2)
+    - Associated Certification - [PCEP-30-0x](https://pythoninstitute.org/pcap)
+
 ### Acquired Certifications
 - [PCEP-30-02](https://verify.openedg.org/?id=A8CF.PQ94.SWF6)
 
