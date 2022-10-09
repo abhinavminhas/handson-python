@@ -2,7 +2,10 @@
 This repo is a handbook of [Python](https://www.python.org/) practice notes with code snippets and information around learning and obtaining industry recognized certifications in Python programming.
 
 - Online Training - [Python Essentials 1](https://pythoninstitute.org/python-essentials-1)
-    - Associated Certification - [PCEP-30-0x](https://pythoninstitute.org/pcep)
+    - Associated Certification - [PCEP-30-xx](https://pythoninstitute.org/pcep)
+
+- Online Training - [Python Essentials 2](https://pythoninstitute.org/python-essentials-2)
+    - Associated Certification - [PCAP-31-xx](https://pythoninstitute.org/pcap)
 
 ### Acquired Certifications
 - [PCEP-30-02](https://verify.openedg.org/?id=A8CF.PQ94.SWF6)
@@ -106,4 +109,6 @@ This repo is a handbook of [Python](https://www.python.org/) practice notes with
 ## References
 - [Python Institute Certification Roadmap](https://pythoninstitute.org/certification-tracks)
 - [Python Standard Library](https://docs.python.org/3/library/functions.html)
+- [Python Module Index](https://docs.python.org/3/py-modindex.html)
+- [Python Package Index](https://pypi.org/)
 - [W3Schools](https://www.w3schools.com/python/)
