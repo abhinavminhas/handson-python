@@ -20,7 +20,7 @@
 x = 5
 print(type(x))
 
-print()
+print('----------------------------------------------------------------')
 # Setting the Data Type
     # In Python, the data type is set when you assign a value to a variable.
 x = "Hello World"                               # str
@@ -40,7 +40,7 @@ x = memoryview(bytes(5))                        # memoryview
 x = None                                        # Nonetype
 print(x)
 
-print()
+print('----------------------------------------------------------------')
 # Setting the Specific Data Type
     # If you want to specify the data type, you can use the following constructor functions.
 x = str("Hello World")                          # str

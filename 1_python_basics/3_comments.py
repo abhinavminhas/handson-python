@@ -15,7 +15,7 @@ print("Cheers, Mate!") #print("Hello, World!")
 
     # A comment does not have to be text that explains the code, it can also be used to prevent Python from executing code.
 
-print()
+print('----------------------------------------------------------------')
 # Multi Line Comments
     # Python does not really have a syntax for multi line comments.
     # To add a multiline comment you could insert a # for each line.
