@@ -4,27 +4,27 @@
 x = "Python is awesome"
 print(x)
 
-print()
+print('----------------------------------------------------------------')
     # In the print() function, you output multiple variables, separated by a comma.
 x = "Python"
 y = "is"
 z = "awesome"
 print(x, y, z)
 
-print()
+print('----------------------------------------------------------------')
     # You can also use the + operator to output multiple variables.
 x = "Python "
 y = "is "
 z = "awesome"
 print(x + y + z)
 
-print()
+print('----------------------------------------------------------------')
     # For numbers, the + character works as a mathematical operator.
 x = 5
 y = 10
 print(x + y)
 
-print()
+print('----------------------------------------------------------------')
     # In the print() function, when you try to combine a string and a number with the + operator, Python will give you an error.
 '''
     x = 5

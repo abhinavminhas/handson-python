@@ -7,7 +7,7 @@ thislist = ["apple", "banana", "cherry"]
 thislist.remove("banana")
 print(thislist)
 
-print()
+print('----------------------------------------------------------------')
     # The pop() method removes the specified index.
 thislist = ["apple", "banana", "cherry"]
 thislist.pop(1)
@@ -17,7 +17,7 @@ thislist = ["apple", "banana", "cherry"]
 thislist.pop()
 print(thislist)
 
-print()
+print('----------------------------------------------------------------')
     # The del keyword also removes the specified index.
 thislist = ["apple", "banana", "cherry"]
 del thislist[0]
@@ -26,7 +26,7 @@ print(thislist)
 thislist = ["apple", "banana", "cherry"]
 del thislist
 
-print()
+print('----------------------------------------------------------------')
 # Clear the List
     # The clear() method empties the list.
     # The list still remains, but it has no content.

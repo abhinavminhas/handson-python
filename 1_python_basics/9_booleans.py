@@ -14,7 +14,7 @@ print(10 > 9)
 print(10 == 9)
 print(10 < 9)
 
-print()
+print('----------------------------------------------------------------')
     # When you run a condition in an if statement, Python returns True or False.
 a = 200
 b = 33
@@ -23,7 +23,7 @@ if b > a:
 if a > b:
     print('b is not greater than a')
 
-print()
+print('----------------------------------------------------------------')
 # Evaluate Values and Variables
     # The bool() function allows you to evaluate any value, and give you True or False in return.
 print(bool("Hello"))
@@ -35,7 +35,7 @@ y = 15
 print(bool(x))
 print(bool(y))
 
-print()
+print('----------------------------------------------------------------')
 # Most Values are True
 '''
     Almost any value is evaluated to True if it has some sort of content.
@@ -52,7 +52,7 @@ print(a)
 print(b)
 print(c)
 
-print()
+print('----------------------------------------------------------------')
 # Some Values are False
     # In fact, there are not many values that evaluate to False, except empty values, such as (), [], {}, "", 
     # the number 0, and the value None. And of course the value False evaluates to False.
@@ -71,7 +71,7 @@ print(e)
 print(f)
 print(g)
 
-print()
+print('----------------------------------------------------------------')
     # One more value, or object in this case, evaluates to False, and that is if you have an object that is made from a class with a __len__ function that returns 0 or False.
 class MyClass:
   def __len__(self):
@@ -80,7 +80,7 @@ class MyClass:
 myobj = MyClass()
 print(bool(myobj))
 
-print()
+print('----------------------------------------------------------------')
 # Functions can Return a Boolean
     # You can create functions that returns a Boolean Value.
 def myFunction():
@@ -88,7 +88,7 @@ def myFunction():
 
 print(myFunction())
 
-print()
+print('----------------------------------------------------------------')
     # You can execute code based on the Boolean answer of a function
 def myFunction():
     return True
@@ -98,7 +98,7 @@ if (myFunction()):
 else:
     print("NO!")
 
-print()
+print('----------------------------------------------------------------')
     # Python also has many built-in functions that return a boolean value, like the isinstance() function, 
     # which can be used to determine if an object is of a certain data type.
 x = 200

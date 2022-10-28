@@ -7,7 +7,7 @@ print(thislist)
 thislist[1] = "blackcurrant"
 print(thislist)
 
-print()
+print('----------------------------------------------------------------')
 # Change a Range of Item Values
     # To change the value of items within a specific range, define a list with the new values, and refer to the range of index numbers where you want to insert the new values.
     # Change the values "banana" and "cherry" with the values "blackcurrant" and "watermelon".
@@ -30,7 +30,7 @@ print(thislist)
 thislist[1:3] = ["watermelon"]
 print(thislist)
 
-print()
+print('----------------------------------------------------------------')
 # Insert Items
     # To insert a new list item, without replacing any of the existing values, we can use the insert() method.
     # Insert "watermelon" as the third item.

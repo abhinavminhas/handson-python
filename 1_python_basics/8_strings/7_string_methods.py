@@ -55,7 +55,7 @@ txt2 = "python is FUN!"
 print(txt1.capitalize())
 print(txt2.capitalize())
 
-print()
+print('----------------------------------------------------------------')
 # casefold()	Converts string into lower case
 # This method is similar to the lower() method, 
 # but the casefold() method is stronger, more aggressive, meaning that it will convert more characters into lower case, 
@@ -63,7 +63,7 @@ print()
 txt = "Hello, And Welcome To My World!"
 print(txt.casefold())
 
-print()
+print('----------------------------------------------------------------')
 # center()	Returns a centered string.
 txt = "banana"
 x = txt.center(20)
@@ -72,7 +72,7 @@ print(x)
 txt = "banana"
 print(txt.center(20, 'O'))
 
-print()
+print('----------------------------------------------------------------')
 # count()	Returns the number of times a specified value occurs in a string.
 txt = "I love apples, apple are my favorite fruit"
 print(txt.count('apple'))
@@ -82,13 +82,13 @@ print(txt.count('apple', 10, 20))
 txt = "My name is Ståle"
 print(txt.encode())
 
-print()
+print('----------------------------------------------------------------')
 # endswith()	Returns true if the string ends with the specified value.
 txt = "Hello, welcome to my world."
 print(txt.endswith('.'))
 print(txt.endswith('my world', 5, 11))
 
-print()
+print('----------------------------------------------------------------')
 # expandtabs()	Sets the tab size of the string. The expandtabs() method sets the tab size to the specified number of whitespaces.
 txt = "H\te\tl\tl\to"
 print(txt)
@@ -98,7 +98,7 @@ print(txt.expandtabs(4))
 print(txt.expandtabs(10))
 
 
-print()
+print('----------------------------------------------------------------')
 # find()	Searches the string for a specified value and returns the position of where it was found.
 # The find() method finds the first occurrence of the specified value.
 # The find() method returns -1 if the value is not found.
@@ -111,7 +111,7 @@ print(x)
 x = txt.find("e", 5, 10)
 print(x)
 
-print()
+print('----------------------------------------------------------------')
 # format()	Formats specified values in a string.
 txt = "For only {price:.2f} dollars!"
 print(txt.format(price = 49))
@@ -122,7 +122,7 @@ print(txt1)
 print(txt2)
 print(txt3)
 
-print()
+print('----------------------------------------------------------------')
 # index()	Searches the string for a specified value and returns the position of where it was found.
 txt = "Hello, welcome to my world."
 x = txt.index("welcome")
@@ -137,13 +137,13 @@ txt = "Hello, welcome to my world."
 print(txt.find("q"))
 #print(txt.index("q"))
 
-print()
+print('----------------------------------------------------------------')
 # isalnum()	Returns True if all characters in the string are alphanumeric.
 txt = "Company12"
 x = txt.isalnum()
 print(x)
 
-print()
+print('----------------------------------------------------------------')
 # isalpha()	Returns True if all characters in the string are in the alphabet.
 txt = "CompanyX"
 x = txt.isalpha()
@@ -152,7 +152,7 @@ txt = "Company10"
 x = txt.isalpha()
 print(x)
 
-print()
+print('----------------------------------------------------------------')
 # isdecimal()	Returns True if all characters in the string are decimals (0-9).
 # This method is used on unicode objects.
 a = "\u0030" #unicode for 0
@@ -160,13 +160,13 @@ b = "\u0047" #unicode for G
 print(a.isdecimal())
 print(b.isdecimal())
 
-print()
+print('----------------------------------------------------------------')
 # isdigit()	Returns True if all characters in the string are digits.
 txt = "50800"
 x = txt.isdigit()
 print(x)
 
-print()
+print('----------------------------------------------------------------')
 # isidentifier()	Returns True if the string is an identifier.
 # A string is considered a valid identifier if it only contains alphanumeric letters (a-z) and (0-9), or underscores (_). 
 # A valid identifier cannot start with a number, or contain any spaces.
@@ -179,7 +179,7 @@ print(b.isidentifier())
 print(c.isidentifier())
 print(d.isidentifier())
 
-print()
+print('----------------------------------------------------------------')
 # islower()	Returns True if all characters in the string are lower case.
 a = "Hello world!"
 b = "hello 123"
@@ -188,7 +188,7 @@ print(a.islower())
 print(b.islower())
 print(c.islower())
 
-print()
+print('----------------------------------------------------------------')
 # isnumeric()	Returns True if all characters in the string are numeric.
 a = "\u0030" #unicode for 0
 b = "\u00B2" #unicode for &sup2;
