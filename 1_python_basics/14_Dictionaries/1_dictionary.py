@@ -28,7 +28,7 @@ print(thisdict["brand"])
 # Ordered or Unordered?
   # As of Python version 3.7, dictionaries are ordered. In Python 3.6 and earlier, dictionaries are unordered.
 
-print()
+print('----------------------------------------------------------------')
 # Changeable
   # Dictionaries are changeable, meaning that we can change, add or remove items after the dictionary has been created.
 
@@ -43,7 +43,7 @@ thisdict = {
 }
 print(thisdict)
 
-print()
+print('----------------------------------------------------------------')
 # Dictionary Length
   # To determine how many items a dictionary has, use the len() function.
 thisdict = {
@@ -54,7 +54,7 @@ thisdict = {
 }
 print(len(thisdict))
 
-print()
+print('----------------------------------------------------------------')
 # Dictionary Items - Data Types
   # The values in dictionary items can be of any data type.
 thisdict = {
@@ -65,7 +65,7 @@ thisdict = {
 }
 print(thisdict)
 
-print()
+print('----------------------------------------------------------------')
 # type()
   # From Python's perspective, dictionaries are defined as objects with the data type 'dict'.
 thisdict = {

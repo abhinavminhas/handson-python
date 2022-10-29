@@ -8,7 +8,7 @@ x = datetime.datetime.now()
 print(x)
     # When we execute the code from the example above the result will be: 2022-09-25 10:51:44.450202
 
-print()
+print('----------------------------------------------------------------')
 # Date Output
 '''
     The date contains year, month, day, hour, minute, second, and microsecond.
@@ -18,7 +18,7 @@ print()
 print(x.year)
 print(x.strftime('%A'))
 
-print()
+print('----------------------------------------------------------------')
 # Creating Date Objects
 '''
     To create a date, we can use the datetime() class (constructor) of the datetime module.
@@ -29,7 +29,7 @@ print()
 x = datetime.datetime(2020, 2, 1)
 print(x)
 
-print()
+print('----------------------------------------------------------------')
 # The strftime() Method
 '''
     The datetime object has a method for formatting date objects into readable strings.

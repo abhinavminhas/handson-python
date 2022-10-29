@@ -11,7 +11,7 @@
 thisset = {"apple", "banana", "cherry"}
 print(thisset)
 
-print()
+print('----------------------------------------------------------------')
 # Set Items
     # Set items are unordered, unchangeable, and do not allow duplicate values.
 
@@ -29,13 +29,13 @@ print()
 thisset = {"apple", "banana", "cherry", "apple"}
 print(thisset)
 
-print()
+print('----------------------------------------------------------------')
 # Get the Length of a Set
     # To determine how many items a set has, use the len() function.
 thisset = {"apple", "banana", "cherry"}
 print(len(thisset))
 
-print()
+print('----------------------------------------------------------------')
 # Set Items - Data Types
     # Set items can be of any data type.
 set1 = {"apple", "banana", "cherry"}
@@ -46,13 +46,13 @@ set3 = {True, False, False}
 set1 = {"abc", 34, True, 40, "male"}
 print(set1)
 
-print()
+print('----------------------------------------------------------------')
 # type()
     # From Python's perspective, sets are defined as objects with the data type 'set'.
 myset = {"apple", "banana", "cherry"}
 print(type(myset))
 
-print()
+print('----------------------------------------------------------------')
 # The set() Constructor
     # It is also possible to use the set() constructor to make a set.
 thisset = set(("apple", "banana", "cherry")) # note the double round-brackets

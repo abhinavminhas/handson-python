@@ -11,7 +11,7 @@ thisdict = {
 thisdict.pop("model")
 print(thisdict)
 
-print()
+print('----------------------------------------------------------------')
   # The popitem() method removes the last inserted item.
 thisdict = {
   "brand": "Ford",
@@ -21,7 +21,7 @@ thisdict = {
 thisdict.popitem()
 print(thisdict)
 
-print()
+print('----------------------------------------------------------------')
   # The del keyword removes the item with the specified key name.
 thisdict = {
   "brand": "Ford",
@@ -39,7 +39,7 @@ thisdict = {
 }
 del thisdict
 
-print()
+print('----------------------------------------------------------------')
   # The clear() method empties the dictionary.
 thisdict = {
   "brand": "Ford",

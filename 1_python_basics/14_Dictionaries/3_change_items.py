@@ -10,7 +10,7 @@ thisdict = {
 thisdict["year"] = 2018
 print(thisdict)
 
-print()
+print('----------------------------------------------------------------')
 # Update Dictionary
 '''
   The update() method will update the dictionary with the items from the given argument.

@@ -11,13 +11,13 @@
 class MyClass:
     x = 5
 
-print()
+print('----------------------------------------------------------------')
 # Create Object
     # Now we can use the class named MyClass to create objects:
 p1 = MyClass()
 print(p1.x)
 
-print()
+print('----------------------------------------------------------------')
 # The __init__() Function
 '''
     The examples above are classes and objects in their simplest form, and are not really useful in real life applications.
@@ -36,7 +36,7 @@ print(p1.name)
 print(p1.age)
     # Note: The __init__() function is called automatically every time the class is being used to create a new object.
 
-print()
+print('----------------------------------------------------------------')
 # The __str__() Function
 '''
     The __str__() function controls what should be returned when the class object is represented as a string.
@@ -63,7 +63,7 @@ class Person:
 p1 = Person("John", 36)
 print(p1)
 
-print()
+print('----------------------------------------------------------------')
 # Object Methods
 ''''
     Objects can also contain methods. Methods in objects are functions that belong to the object.
@@ -80,7 +80,7 @@ class Person:
 p1 = Person("John", 36)
 p1.myfunc()
 
-print()
+print('----------------------------------------------------------------')
     # Note: The self parameter is a reference to the current instance of the class, and is used to access variables that belong to the class.
 
 # The self Parameter
@@ -100,7 +100,7 @@ class Person:
 p1 = Person("John", "36")
 p1.myfunc()
 
-print()
+print('----------------------------------------------------------------')
 # Modify Object Properties
     # You can modify properties on objects like this.
 p1.age = 40
