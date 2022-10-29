@@ -13,7 +13,7 @@ f.close()
 f = open("demofile2.txt", "r")
 print(f.read())
 
-print()
+print('----------------------------------------------------------------')
     # Open the file "demofile3.txt" and overwrite the content.
 f = open("demofile3.txt", "w")
 f.write("Woops! I have deleted the content!")

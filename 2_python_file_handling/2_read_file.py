@@ -6,7 +6,7 @@
 f = open("demofile.txt", "r")
 print(f.read())
 
-print()
+print('----------------------------------------------------------------')
     # If the file is located in a different location, you will have to specify the file path, like this.
 '''
     f = open("C:/home/demofile.txt", "r")
@@ -18,26 +18,26 @@ print()
 f = open("demofile.txt", "r")
 print(f.read(5))
 
-print()
+print('----------------------------------------------------------------')
 # Read Lines
     # You can return one line by using the readline() method.
 f = open("demofile.txt", "r")
 print(f.readline())
 
-print()
+print('----------------------------------------------------------------')
     # By calling readline() two times, you can read the two first lines.
 f = open("demofile.txt", "r")
 print(f.readline())
 print(f.readline())
 
-print()
+print('----------------------------------------------------------------')
     # By looping through the lines of the file, you can read the whole file, line by line.
 f = open("demofile.txt", "r")
 
 for x in f:
     print(x)
 
-print()
+print('----------------------------------------------------------------')
 # Close Files
     # It is a good practice to always close the file when you are done with it.
 f = open("demofile.txt", "r")
