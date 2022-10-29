@@ -14,7 +14,7 @@ try:
 except:
     print("An exception occurred")
 
-print()
+print('----------------------------------------------------------------')
 # Many Exceptions
     # You can define as many exception blocks as you want, e.g. if you want to execute a special block of code for a special kind of error.
 try:
@@ -24,7 +24,7 @@ except NameError:
 except:
     print("Something else went wrong")
 
-print()
+print('----------------------------------------------------------------')
 # Else
     # You can use the else keyword to define a block of code to be executed if no errors were raised.
 try:
@@ -34,7 +34,7 @@ except:
 else:
   print("Nothing went wrong")
 
-print()
+print('----------------------------------------------------------------')
 # Finally
     # The finally block, if specified, will be executed regardless if the try block raises an error or not.
 try:
@@ -44,7 +44,7 @@ except:
 finally:
     print("The 'try except' is finished")
 
-print()
+print('----------------------------------------------------------------')
 # This can be useful to close objects and clean up resources.
 try:
     f = open("demofile.txt")
@@ -57,7 +57,7 @@ try:
 except:
     print(print("Something went wrong when opening the file"))
 
-print()
+print('----------------------------------------------------------------')
 # Raise an exception
 '''
     As a Python developer you can choose to throw an exception if a condition occurs.

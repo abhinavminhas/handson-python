@@ -8,17 +8,17 @@
 thislist = ["apple", "banana", "cherry"]
 print(thislist)
 
-print()
+print('----------------------------------------------------------------')
     # To determine how many items a list has, use the len() function.
 thislist = ["apple", "banana", "cherry"]
 print(len(thislist))
 
-print()
+print('----------------------------------------------------------------')
     # From Python's perspective, lists are defined as objects with the data type 'list'.
 mylist = ["apple", "banana", "cherry"]
 print(type(mylist))
 
-print()
+print('----------------------------------------------------------------')
     # It is also possible to use the list() constructor when creating a new list.
 thislist = list(("apple", "banana", "cherry"))
 print(thislist)

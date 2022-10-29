@@ -12,7 +12,7 @@ print(thisset)
     # Note: If the item to remove does not exist, remove() will raise an error.
     # Note: If the item to remove does not exist, discard() will NOT raise an error.
 
-print()
+print('----------------------------------------------------------------')
 '''
     You can also use the pop() method to remove an item, but this method will remove the last item.
 
@@ -23,13 +23,13 @@ thisset = {"apple", "banana", "cherry"}
 thisset.pop()
 print(thisset)
 
-print()
+print('----------------------------------------------------------------')
     # The clear() method empties the set.
 thisset = {"apple", "banana", "cherry"}
 thisset.clear()
 print(thisset)
 
-print()
+print('----------------------------------------------------------------')
     # The del keyword will delete the set completely.
 thisset = {"apple", "banana", "cherry"}
 del thisset

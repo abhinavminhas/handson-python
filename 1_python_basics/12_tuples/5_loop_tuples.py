@@ -6,7 +6,7 @@ thistuple = ("apple", "banana", "cherry")
 for x in thistuple:
     print(x)
 
-print()
+print('----------------------------------------------------------------')
 # Loop Through the Index Numbers
 '''
     You can also loop through the tuple items by referring to their index number.
@@ -18,7 +18,7 @@ for i in range(len(thistuple)):
     print(thistuple[i])
     i += 1
 
-print()
+print('----------------------------------------------------------------')
 # Using a While Loop
 '''
     You can loop through the list items by using a while loop.

@@ -18,7 +18,7 @@ class Person:
 x = Person("John", "Doe")
 x.printname()
 
-print()
+print('----------------------------------------------------------------')
 # Create a Child Class
     # To create a class that inherits the functionality from another class, send the parent class as a parameter when creating the child class.
 class Student(Person):
@@ -30,7 +30,7 @@ class Student(Person):
 x = Student("Mike", "Olsen")
 x.printname()
 
-print()
+print('----------------------------------------------------------------')
 # Add the __init__() Function
 '''
     So far we have created a child class that inherits the properties and methods from its parent.

@@ -10,16 +10,16 @@
 x = lambda a : a + 10
 print(x(5))
 
-print()
+print('----------------------------------------------------------------')
 # Lambda functions can take any number of arguments.
 x = lambda a, b : a * b
 print(x(5, 6))
 
-print()
+print('----------------------------------------------------------------')
 x = lambda a, b, c : a + b + c
 print(x(5, 6, 2))
 
-print()
+print('----------------------------------------------------------------')
 # Why Use Lambda Functions?
 '''
   The power of lambda is better shown when you use them as an anonymous function inside another function.

@@ -18,7 +18,7 @@ print(type(cars))
     An array can hold many values under a single name, and you can access the values by referring to an index number.
 '''
 
-print()
+print('----------------------------------------------------------------')
 # Access the Elements of an Array
     # You refer to an array element by referring to the index number.
 x = cars[0]
@@ -27,27 +27,27 @@ print(x)
 cars[0] = "Toyota"
 print(x)
 
-print()
+print('----------------------------------------------------------------')
 # The Length of an Array
     # Use the len() method to return the length of an array (the number of elements in an array).
 cars = ["Ford", "Volvo", "BMW"]
 x = len(cars)
 print(x)
 
-print()
+print('----------------------------------------------------------------')
 # Looping Array Elements
     # You can use the for in loop to loop through all the elements of an array.
 for x in cars:
   print(x)
 
-print()
+print('----------------------------------------------------------------')
 # Adding Array Elements
     # You can use the append() method to add an element to an array.
 cars = ["Ford", "Volvo", "BMW"]
 cars.append("Honda")
 print(cars)
 
-print()
+print('----------------------------------------------------------------')
 # Removing Array Elements
     # You can use the pop() method to remove an element from the array.
 cars = ["Ford", "Volvo", "BMW"]
@@ -56,7 +56,7 @@ print(cars)
 cars.pop(0)
 print(cars)
 
-print()
+print('----------------------------------------------------------------')
     # You can also use the remove() method to remove an element from the array.
 cars = ["Ford", "Volvo", "BMW"]
 cars.remove("Volvo")

@@ -22,7 +22,7 @@ fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 newlist1 = [x for x in fruits if "a" in x]
 print(newlist1)
 
-print()
+print('----------------------------------------------------------------')
 # Condition
     # Only accept items that are not "apple"
 newlist2 = [x for x in fruits if x != "apple"]
@@ -33,7 +33,7 @@ print(newlist2)
 newlist3 = [x for x in fruits]
 print(newlist3)
 
-print()
+print('----------------------------------------------------------------')
 # Iterable
     # The iterable can be any iterable object, like a list, tuple, set etc.
     # You can use the range() function to create an iterable.
@@ -44,7 +44,7 @@ print(newlist4)
 newlist5 = [x for x in range(10) if x < 5]
 print(newlist5)
 
-print()
+print('----------------------------------------------------------------')
 # Expression
     # The expression is the current item in the iteration, but it is also the outcome, which you can manipulate before it ends up like a list item in the new list.
 newlist6 = [x.upper() for x in fruits]

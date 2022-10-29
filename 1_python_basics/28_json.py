@@ -16,7 +16,7 @@ y = json.loads(x)
 print(y)
 print(y['age'])
 
-print()
+print('----------------------------------------------------------------')
 # Convert from Python to JSON
   # If you have a Python object, you can convert it into a JSON string by using the json.dumps() method.
 x = {
@@ -57,7 +57,7 @@ x = {
 
 print(json.dumps(x))
 
-print()
+print('----------------------------------------------------------------')
 # Convert a Python object containing all the legal data types.
 print(json.dumps({"name": "John", "age": 30}))
 print(json.dumps(["apple", "bananas"]))
@@ -69,20 +69,20 @@ print(json.dumps(True))
 print(json.dumps(False))
 print(json.dumps(None))
 
-print()
+print('----------------------------------------------------------------')
 # Format the Result
   # The example above prints a JSON string, but it is not very easy to read, with no indentations and line breaks.
   # The json.dumps() method has parameters to make it easier to read the result.
 y = json.dumps(x, indent=4)
 print(y)
 
-print()
+print('----------------------------------------------------------------')
   # You can also define the separators, default value is (", ", ": "), which means using a comma and a space to separate each object, and a colon and a space to separate keys from values.
   # Use the separators parameter to change the default separator.
 y = json.dumps(x, indent=4, separators=(". ", " = "))
 print(y)
 
-print()
+print('----------------------------------------------------------------')
 # Order the Result
   # The json.dumps() method has parameters to order the keys in the result.
   # Use the sort_keys parameter to specify if the result should be sorted or not.

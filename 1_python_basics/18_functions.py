@@ -14,7 +14,7 @@ def my_function():
   # To call a function, use the function name followed by parenthesis.
 my_function()
 
-print()
+print('----------------------------------------------------------------')
 # Arguments
 '''
   Information can be passed into functions as arguments.
@@ -31,7 +31,7 @@ my_function("Emil")
 my_function("Tobais")
 my_function("Linus")
 
-print()
+print('----------------------------------------------------------------')
 # Parameters or Arguments?
 '''
   The terms parameter and argument can be used for the same thing: information that are passed into a function.
@@ -50,7 +50,7 @@ def my_function(fname, lname):
 my_function("Emil", "Refsnes")
   # If you try to call the function with 1 or 3 arguments, you will get an error.
 
-print()
+print('----------------------------------------------------------------')
 # Arbitrary Arguments, *args
   # If you do not know how many arguments that will be passed into your function, add a * before the parameter name in the function definition.
   # This way the function will receive a tuple of arguments, and can access the items accordingly.
@@ -59,7 +59,7 @@ def my_function(*kids):
 
 my_function("Emil", "Tobias", "Linus")
 
-print()
+print('----------------------------------------------------------------')
 # Keyword Arguments
   # You can also send arguments with the key = value syntax.
   # This way the order of the arguments does not matter.
@@ -68,7 +68,7 @@ def my_function(child3, child2, child1):
 
 my_function(child1 = "Emil", child2 = "Tobias", child3 = "Linus")
 
-print()
+print('----------------------------------------------------------------')
 # Arbitrary Keyword Arguments, **kwargs
   # If you do not know how many keyword arguments that will be passed into your function, add two asterisk: ** before the parameter name in the function definition.
   # This way the function will receive a dictionary of arguments, and can access the items accordingly.
@@ -77,7 +77,7 @@ def my_function(**kid):
 
 my_function(fname = "Tobias", lname = "Refsnes")
 
-print()
+print('----------------------------------------------------------------')
 # Default Parameter Value
   # The following example shows how to use a default parameter value.
   # If we call the function without argument, it uses the default value.
@@ -89,7 +89,7 @@ my_function("India")
 my_function()
 my_function("Brazil")
 
-print()
+print('----------------------------------------------------------------')
 # Passing a List as an Argument
   # You can send any data types of argument to a function (string, number, list, dictionary etc.), and it will be treated as the same data type inside the function.
   # E.g. if you send a List as an argument, it will still be a List when it reaches the function.
@@ -104,7 +104,7 @@ my_function(fruits)
 my_function(numbers)
 my_function(strandnos)
 
-print()
+print('----------------------------------------------------------------')
 # Return Values
   # To let a function return a value, use the return statement.
 def my_function(x):
@@ -119,7 +119,7 @@ print(my_function(9))
 def myfunction():
   pass
 
-print()
+print('----------------------------------------------------------------')
 # Recursion
 '''
   Python also accepts function recursion, which means a defined function can call itself.

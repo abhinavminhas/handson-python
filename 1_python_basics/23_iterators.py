@@ -16,7 +16,7 @@ print(next(myit))
 print(next(myit))
 print(next(myit))
 
-print()
+print('----------------------------------------------------------------')
     # Strings are also iterable objects, containing a sequence of characters.
 mystr = "banana"
 myit = iter(mystr)
@@ -28,21 +28,21 @@ print(next(myit))
 print(next(myit))
 print(next(myit))
 
-print()
+print('----------------------------------------------------------------')
 # Looping Through an Iterator
     # We can also use a for loop to iterate through an iterable object.
 mytuple = ("apple", "banana", "cherry")
 for x in mytuple:
     print(x)
 
-print()
+print('----------------------------------------------------------------')
     # Iterate the characters of a string.
 mystr = "banana"
 for x in mystr:
     print(x)
     # Note - The for loop actually creates an iterator object and executes the next() method for each loop.
 
-print()
+print('----------------------------------------------------------------')
 # Create an Iterator
 '''
     To create an object/class as an iterator you have to implement the methods __iter__() and __next__() to your object.
@@ -70,7 +70,7 @@ print(next(myiter))
 print(next(myiter))
 print(next(myiter))
 
-print()
+print('----------------------------------------------------------------')
 # StopIteration
 '''
     The example above would continue forever if you had enough next() statements, or if it was used in a for loop.

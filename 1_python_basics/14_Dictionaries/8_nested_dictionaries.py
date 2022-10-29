@@ -18,7 +18,7 @@ myfamily = {
 }
 print(myfamily)
 
-print()
+print('----------------------------------------------------------------')
   # Or, if you want to add three dictionaries into a new dictionary.
 child1 = {
   "name" : "Emil",

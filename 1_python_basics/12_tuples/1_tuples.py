@@ -9,7 +9,7 @@
 thistuple = ("apple", "banana", "cherry")
 print(thistuple)
 
-print()
+print('----------------------------------------------------------------')
 # Tuple Items
 '''
     Tuple items are ordered, unchangeable, and allow duplicate values.
@@ -27,13 +27,13 @@ print()
 thistuple = ("apple", "banana", "cherry", "apple", "cherry")
 print(thistuple)
 
-print()
+print('----------------------------------------------------------------')
 # Tuple Length
     # To determine how many items a tuple has, use the len() function.
 thistuple = ("apple", "banana", "cherry")
 print(len(thistuple))
 
-print()
+print('----------------------------------------------------------------')
 # Create Tuple With One Item
     # To create a tuple with only one item, you have to add a comma after the item, otherwise Python will not recognize it as a tuple.
 thistuple = ("apple",)
@@ -43,7 +43,7 @@ print(type(thistuple))
 thistuple = ("apple")
 print(type(thistuple))
 
-print()
+print('----------------------------------------------------------------')
 # Tuple Items - Data Types
     # Tuple items can be of any data type.
 tuple1 = ("apple", "banana", "cherry")
@@ -57,13 +57,13 @@ print(tuple3)
 tuple1 = ("abc", 34, True, 40, "male")
 print(tuple1)
 
-print()
+print('----------------------------------------------------------------')
 # type()
     # From Python's perspective, tuples are defined as objects with the data type 'tuple'.
 mytuple = ("apple", "banana", "cherry")
 print(type(mytuple))
 
-print()
+print('----------------------------------------------------------------')
 # The tuple() Constructor
     # It is also possible to use the tuple() constructor to make a tuple.
 thistuple = tuple(("apple", "banana", "cherry"))

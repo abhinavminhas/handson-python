@@ -9,7 +9,7 @@ print("Hello, World!")
     python myfile.py
 '''
 
-print()
+print('----------------------------------------------------------------')
 # Python Indentation
 '''
     Indentation refers to the spaces at the beginning of a code line.

@@ -5,14 +5,14 @@
 thistuple = ("apple", "banana", "cherry")
 print(thistuple[1])
 
-print()
+print('----------------------------------------------------------------')
 # Negative Indexing
     # Negative indexing means start from the end.
     # -1 refers to the last item, -2 refers to the second last item etc.
 thistuple = ("apple", "banana", "cherry")
 print(thistuple[-1])
 
-print()
+print('----------------------------------------------------------------')
 # Range of Indexes
 '''
     You can specify a range of indexes by specifying where to start and where to end the range.
@@ -31,7 +31,7 @@ print(thistuple[2:])
 thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
 print(thistuple[-4:-1])
 
-print()
+print('----------------------------------------------------------------')
 # Check if Item Exists
     # To determine if a specified item is present in a tuple use the in keyword.
 thistuple = ("apple", "banana", "cherry")

@@ -13,7 +13,7 @@ thisdict = {
 mydict = thisdict.copy();
 print(mydict)
 
-print()
+print('----------------------------------------------------------------')
   # Another way to make a copy is to use the built-in function dict().
 thisdict = {
   "brand": "Ford",
